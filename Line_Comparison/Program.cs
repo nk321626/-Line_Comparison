@@ -4,5 +4,6 @@ using Line_Comparison;
 Console.WriteLine("Welcome to Line Comparison Computation Program");
 LineComparison lineComparison = new LineComparison();
 lineComparison.LineLength();
-lineComparison.CheckEquality();
+//lineComparison.CheckEquality();
+lineComparison.CompareTwoLines(); //Call The Methods
 Console.ReadLine();
